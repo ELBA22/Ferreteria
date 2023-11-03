@@ -5,8 +5,9 @@ using System.Threading.Tasks;
 
 namespace Ferreteria.Clases
 {
-    public class Productos : ClassEntity
+    public class Productos 
     {
+        public int IdProducto {get; set;}
         public string Nombre { get; set; }
         public int PrecioUnitario { get; set; }
         public int Cantidad { get; set; }

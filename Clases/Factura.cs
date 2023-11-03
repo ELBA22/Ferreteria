@@ -8,8 +8,9 @@ namespace Ferreteria.Clases
     public class Factura
     {
         public int NumeroFactura { get; set; }
-        public DateOnly Fecha {get; set;}
+        public DateTime Fecha {get; set;}
 
         public int IdCliente {get; set;}
+        public int TotalFactura {get; set;}
     }
 }
